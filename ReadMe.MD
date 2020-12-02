@@ -1,6 +1,15 @@
 # Kubernetes
 
-Basic Command
+## Basic Command
+```
+kubectl get nodes
+```
+
+get services 
+```
+kubectl get service
+```
+
 ## Create k8 pod
 ```
 kubectl create -f my-app-k8.yaml
@@ -21,4 +30,12 @@ Delete pod
 kubectl delete deployment <pod-name>
 ```
 
+check deployment 
+```
+kubectl get deployment
+```
 
+check replicaset 
+```
+kubectl get replicaset
+```
