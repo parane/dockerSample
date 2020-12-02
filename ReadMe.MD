@@ -1,39 +1,24 @@
-# Docker
+# Kubernetes
 
 Basic Command
-## Docker Build
-
-Docker build with Tag.
-
-```bash
-docker build -t my-app .
+## Create k8 pod
+```
+kubectl create -f my-app-k8.yaml
 ```
 
-## Docker Run
-
-Docker run with port
+List down pods 
 ```
-docker run -p 8090:8090 my-app
+kubectl get pods
 ```
 
-showing  running container
+Check pod log 
 ```
-docker ps
-```
-
-showing  all container
-```
-docker ps -a
+kubectl logs <pod-name>
 ```
 
-docker start the container
+Delete pod 
 ```
-docker start <Container_id>
-```
-
-check the app :
-```
-http://localhost:8090/docker-hello/get/msgs --> hello
+kubectl delete deployment <pod-name>
 ```
 
 
