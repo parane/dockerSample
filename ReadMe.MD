@@ -1,6 +1,9 @@
 # Docker
 
-Basic Command
+Sample springboot app deploy using Docker and Kubernetes.
+
+branch k8 - kubernetes deployment 
+
 ## Docker Build
 
 Docker build with Tag.
